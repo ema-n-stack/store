@@ -1,0 +1,60 @@
+/*Start Main Rules*/
+.container{width: 1300px;}
+/*End Main Rules*/
+/*Start Header*/
+.header .icons{background-color:rgb(248, 242, 214);height:30px;}
+.header .icons ul{list-style: none;padding-left: 0;overflow: hidden;padding-top: 2px;}
+.header .icons ul li{display: inline-block;}
+.header .icons ul li img{width: 30px}
+.header .navbar {overflow: hidden; background-color: rgb(4, 35, 59);height: 70px;}
+.header .navbar h2{text-transform:uppercase;float: left;font:icon lighter 25px Tahoma,Arial;color:rgb(11, 127, 216);margin-left: 15px;}
+.header .navbar h2 span{color: rgb(248,225, 20);}
+.header .navbar ul{list-style:none;padding-left:0px;float: right;overflow: hidden;}
+.header .navbar ul li{float: left;padding:10px;}
+.header .navbar ul li a{text-decoration: none;text-transform: capitalize;font: icon bold 20px Tahoma,Arial;color: white;}
+.header .navbar ul li a:hover{color:rgb(248, 225, 20)}
+.header .navbar ul .active a{color:rgb(11,127, 216)}
+.header .slider{background-image: url(../image/mm.jpg);background-size: cover;height:800px;overflow: hidden;}
+.header .slider .intro{color:rgb(11, 127, 216);overflow: hidden;padding-top: 80px;text-align: center;}
+.header .slider .intro h2{font:normal lighter 100px Tahoma,Arial;letter-spacing: 37px;margin-left: 90px;}
+.header .slider .intro h2 span{color:rgb(248, 225, 20)}
+/*End Header*/
+/*Start Features*/
+.features{overflow: hidden;padding-left: 30px;}
+.features .feat{float: left;width:33.333333%;height: 150px;}
+.features .feat h2{color: rgb(37, 34, 34);text-transform: capitalize;}
+.features .feat h2 span{background-color:rgb(11, 127,216);}
+.features .feat p{line-height: 1.7;color: gray;}
+/*End Features*/
+/*Start Testemonials*/
+.Testemonials{overflow: hidden;text-align: center;background-color:#eee;padding-top: 50px;padding-bottom: 40px;height: 100px;}
+.Testemonials q{color:grey;font: italic bold 20px Tahoma,Arial;}
+.Testemonials h3{color: rgb(43, 41, 41);font: italic bold 20px Tahoma,Arial;}
+.Testemonials ul{padding-left: 0;list-style: none;text-align: center;}
+.Testemonials ul li{width: 10px;height:10px ;display: inline-block;cursor: pointer;border:3px solid rgb(11,127,216);border-radius:10px 10px;}
+.Testemonials ul li.active,
+.Testemonials ul li:hover{background-color: rgb(11,127, 216);}
+/*End Testemonials*/
+/*Start Portofolio*/
+.portofolio{overflow: hidden;text-align: center;padding-top: 40px;}
+.portofolio h2{color: rgb(71, 66, 66);text-transform: capitalize;font: italic bold 25px Tahoma,Arial;}
+.portofolio p{color: rgb(124, 118, 118);font: italic bold 20px Tahoma,Arial;}
+.portofolio .work{overflow: hidden;padding-left: 30px;}
+.portofolio .work >div{width: 50%;float: left;margin-bottom: 10px;}
+.portofolio .work  >div img{width: 96%;background-color:#ccc;border: 1px solid #ccc;}
+/*End Portofolio*/
+ /*Start Footer*/
+ .footer{overflow: hidden;background-image:url(../image/ll.jpg);background-size: cover;height:600px;padding-top: 50px;padding-left:10px;}
+ .footer .contact{width: 40%;overflow: hidden;float: left;margin-top:150px;color:white;}
+ .footer .contact span{margin-top: 10px;margin-bottom: 20px;font: italic bold 17px Tahoma,Arial}
+ .footer .contact button{color:white;display: block;margin-top: 20px;margin-left:20px ;cursor: pointer;padding: 10px 20px;background-color:rgb(11, 127, 216);font: normal bold 18px Tahoma,Arial;border: 1px solid rgb(11,127,216)}
+ .footer .form{width: 60%;float: right;overflow: hidden;background-color: none;}
+ .footer .form fieldset{height: 500px;border: 2px solid white;width:400px;text-align: center;}
+ .footer .form label{color:white;border:2px solid white;font:normal bold 17px Tahoma,Arial;margin:10px auto;display:block;width: 30%;text-align: center;padding: 5px 10px;}
+ .footer .form input[type="text"]{color:black;background-color: none;border: 2px solid white;padding: 5px;margin-top:10px ;width: 70%;background: none;}
+ .footer .form input[type="password"]{color:black;background-color: none;border: 2px solid white;padding: 5px;width:70%;background: none;}
+ .footer .form input[type="submit"]{cursor: pointer;background-color:rgb(11, 127, 216);color:white;padding:10px 15px;font:normal bold 15px Tahoma,Arial;margin-top:20px;display:block ;margin-left: 160px;border: 2px solid rgb(11, 127, 216);}
+ .footer .form .foot{padding-top: 40px;}
+ .footer .form .foot span{font: italic bold 18px Tahoma,Arial;color:white;}
+ .footer .form .foot span a{color:rgb(11, 127,216);}
+ /*End Footer*/
